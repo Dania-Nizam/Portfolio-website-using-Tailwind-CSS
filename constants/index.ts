@@ -92,25 +92,21 @@ export const Socials = [
 ];
 export const Projects = [
   {
-    title: "Resume Builder App",
-    text: "",
+    title: "",
+    text: " ",
     src: "/cv.png",
-  },
-  {
-    title: "Count Down Timer",
-    text: "",
-    src: "/project.png",
-  },
-  {
-    title: "Weather App",
-    text: "",
-    src: "/project1.png",
   },
   {
     title: "",
     text: "",
-    src: "/Matrix.png",
+    src: "/project.png",
   },
+  {
+    title: "",
+    text: "",
+    src: "/project1.png",
+  },
+ 
 ];
 
 export const NavLinks = [
