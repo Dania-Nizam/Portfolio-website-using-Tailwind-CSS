@@ -14,7 +14,7 @@ const Page = () => {
     >
       <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
         <div className="flex flex-col items-center gap-4">
-          <h1 className="font-semibold text-white text-[50px]">
+          <h1 className="font-semibold text-white sm:text-[40px] font-serif pt-10">
             Skills{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
@@ -22,7 +22,7 @@ const Page = () => {
             </span>
             Technologies
           </h1>
-          <p className="text-gray-400 text-[20px]">
+          <p className="text-gray-400 sm:text-[20px]">
             Using the latest tech this world has to offer
           </p>
         </div>
@@ -58,7 +58,7 @@ const Page = () => {
           }}
           speed={5000}
           modules={[Autoplay]}
-          className="max-w-[80%]"
+          className="  max-w-[80%]"
         >
           {SkillData.map((skill, index) => (
             <SwiperSlide key={index}>

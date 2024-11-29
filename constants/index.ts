@@ -1,3 +1,4 @@
+
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
 export const SkillData = [
@@ -92,19 +93,25 @@ export const Socials = [
 ];
 export const Projects = [
   {
-    title: "",
-    text: " ",
+    title: " ",
+    text: "Resume Builder  ",
     src: "/cv.png",
+    
   },
   {
     title: "",
-    text: "",
+    text: "Count Down Timer",
     src: "/project.png",
   },
   {
     title: "",
-    text: "",
+    text: "Weather App",
     src: "/project1.png",
+  },
+  {
+    title: "",
+    text: "Furniture Website ",
+    src: "/furniture.png",
   },
  
 ];
