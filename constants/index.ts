@@ -5,8 +5,8 @@ export const SkillData = [
   {
     name: "Html 5",
     Image: "/html.png",
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     name: "Css",
@@ -29,14 +29,21 @@ export const SkillData = [
   {
     name: "Next",
     Image: "/next.svg",
-    width: 80,
-    height: 80,
+    width: 40,
+    height: 40,
+  },
+
+  {
+    name: "Sanity",
+    Image: "/sanity.png",
+    width: 110,
+    height: 110,
   },
   {
     name: "Npm",
     Image: "/npm.png",
-    width: 80,
-    height: 80,
+    width: 110,
+    height: 110,
   },
 
   {
@@ -48,8 +55,8 @@ export const SkillData = [
   {
     name: "Next js 13",
     Image: "/next.png",
-    width: 80,
-    height: 80,
+    width: 110,
+    height: 110,
   },
   {
     name: "Framer Motion",
@@ -72,8 +79,8 @@ export const SkillData = [
   {
     name: "Figma",
     Image: "/figma logo.png",
-    width: 40,
-    height: 40,
+    width: 60,
+    height: 60,
   },
 ];
 
@@ -94,23 +101,52 @@ export const Socials = [
 export const Projects = [
   {
     title: " ",
-    text: "Resume Builder  ",
-    src: "/cv.png",
+    text: "  ",
+    src: "/ecom.PNG",
+    
+  },
+
+  {
+    title: " ",
+    text: " ",
+    src: "/blog.PNG",
     
   },
   {
+    title: " ",
+    text: "  ",
+    src: "/carweb.PNG",
+    
+  },
+
+  {
+    title: " ",
+    text: "  ",
+    src: "/filter.PNG",
+    
+  },
+
+  {
+    title: " ",
+    text: "  ",
+    src: "/cv.png",
+    
+  },
+
+
+  {
     title: "",
-    text: "Count Down Timer",
+    text: "",
     src: "/project.png",
   },
   {
     title: "",
-    text: "Weather App",
+    text: "",
     src: "/project1.png",
   },
   {
     title: "",
-    text: "Furniture Website ",
+    text: " ",
     src: "/furniture.png",
   },
  
