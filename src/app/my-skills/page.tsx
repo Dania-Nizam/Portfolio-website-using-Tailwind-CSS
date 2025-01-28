@@ -13,7 +13,7 @@ const Page = () => {
       className="h-screen w-screen flex items-center justify-center bg-cover bg-center"
     >
       <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col  lg:mt-4 items-center gap-4">
           <h1 className="font-semibold text-white sm:text-[40px] font-serif pt-10">
             Skills{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
