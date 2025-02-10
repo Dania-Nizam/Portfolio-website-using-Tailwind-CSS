@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -19,30 +20,35 @@ const TransitionVariants = {
 
 const Transition = () => {
   return (
-    <div>
+    <div className="fixed inset-0 z-[50] overflow-hidden">
+      {/* First Layer - Deep Purple */}
       <motion.div
-        className="fixed right-0 h-screen w-screen bottom-full z-[30] bg-[#2e2257]"
+        className="absolute right-0 h-screen w-screen bottom-full bg-gradient-to-br from-[#2e2257] to-[#3b1b82] shadow-2xl"
         variants={TransitionVariants}
         initial="initial"
         exit="exit"
         animate="animate"
-        transition={{ delay: 0.2, duration: 0.6, ease: "easeInOut" }}
+        transition={{ delay: 0.15, duration: 0.7, ease: [0.76, 0, 0.24, 1] }}
       />
+      
+      {/* Second Layer - Soft Lavender */}
       <motion.div
-        className="fixed right-0 h-screen w-screen bottom-full z-[20] bg-[#9587ce]"
+        className="absolute right-0 h-screen w-screen bottom-full bg-gradient-to-br from-[#9587ce] to-[#7861c6] shadow-xl"
         variants={TransitionVariants}
         initial="initial"
         exit="exit"
         animate="animate"
-        transition={{ delay: 0.4, duration: 0.6, ease: "easeInOut" }}
+        transition={{ delay: 0.3, duration: 0.7, ease: [0.76, 0, 0.24, 1] }}
       />
+
+      {/* Third Layer - Royal Purple */}
       <motion.div
-        className="fixed right-0 h-screen w-screen bottom-full z-[10] bg-[#4b3792]"
+        className="absolute right-0 h-screen w-screen bottom-full bg-gradient-to-br from-[#4b3792] to-[#3a2675] shadow-lg"
         variants={TransitionVariants}
         initial="initial"
         exit="exit"
         animate="animate"
-        transition={{ delay: 0.6, duration: 0.6, ease: "easeInOut" }}
+        transition={{ delay: 0.45, duration: 0.7, ease: [0.76, 0, 0.24, 1] }}
       />
     </div>
   );

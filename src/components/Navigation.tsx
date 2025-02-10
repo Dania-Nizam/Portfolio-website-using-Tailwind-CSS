@@ -39,19 +39,15 @@ const Navigation = () => {
 
       {/* Navigation */}
       <div
-        className="  fixed  z-[50]  bottom-5 left-1/3 sm:left-1/2 transform -translate-x-1/2 w-[40%] sm:w-[20%]  max-h-[150px] rounded-full flex justify-between items-center border bg-black border-white px-4 py-7"
+        className="fixed z-[50] bottom-5 left-1/3 sm:left-1/2 transform -translate-x-1/2 w-[40%] sm:w-[20%] max-h-[150px] rounded-full flex justify-between items-center border bg-black border-white px-4 py-7"
       >
-        <div className="   flex flex-wrap justify-between items-center w-full">
+        <div className="flex flex-wrap justify-between items-center w-full">
           {NavLinks.map((nav) => (
-            <Link
-              key={nav.name}
-              href={nav.link}
-              className="mb-4 md:mb-0"
-            >
+            <Link key={nav.name} href={nav.link} className="mb-4 md:mb-0">
               <nav.icon
                 className={`w-[24px] h-[24px] transition-all duration-300 ease-in-out ${
                   path === nav.link ? "text-purple-800 scale-110" : "text-white"
-                }`}
+                } hover:text-purple-500 hover:scale-110`}
               />
             </Link>
           ))}
@@ -62,4 +58,3 @@ const Navigation = () => {
 };
 
 export default Navigation;
-

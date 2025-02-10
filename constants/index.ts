@@ -1,6 +1,6 @@
 
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
-
+import { PiReadCvLogoFill } from "react-icons/pi";
 export const SkillData = [
   {
     name: "Html 5",
@@ -29,8 +29,8 @@ export const SkillData = [
   {
     name: "Next",
     Image: "/next.svg",
-    width: 40,
-    height: 40,
+    width: 110,
+    height: 110,
   },
 
   {
@@ -152,6 +152,8 @@ export const Projects = [
  
 ];
 
+
+
 export const NavLinks = [
   {
     name: "/",
@@ -172,5 +174,10 @@ export const NavLinks = [
     name: "/contact-me",
     icon: RxClipboard,
     link: "/contact-me",
+  },
+  {
+    name: "/resume",
+    icon: PiReadCvLogoFill,
+    link: "/resume",
   },
 ];

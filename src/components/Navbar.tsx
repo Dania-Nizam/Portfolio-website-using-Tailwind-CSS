@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 z-[40] w-full h-[60px] bg-transparent flex justify-between items-center px-10 md:px-20 mt-10 bg-opacity-80">
       {/* Logo and Heading aligned properly */}
-      <div className="flex flex-row items-center gap-3">
+      <div className="flex flex-row items-center gap-3 ">
         <div className="relative">
           <Image
             src="/d.png"
@@ -23,10 +23,10 @@ const Navbar = () => {
             className="w-full h-full object-contain rounded-full"
           />
         </div>
-        <h1 className="text-white text-[20px] sm:text-[25px] font-semibold truncate">
-          DANIA NIZAM{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-            Portfolio
+        <h1 className="text-white text-[20px] sm:text-[25px] font-semibold truncate hover:text-purple-500 transition-all duration-300 ease-in-out">
+          DANIA NIZAM's{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r  from-purple-500 to-red-500  hover:text-purple-500 transition-all duration-300 ease-in-out">
+            PORTFOLIO
           </span>
         </h1>
       </div>
